@@ -36,55 +36,80 @@ const defineSkill = <S extends string>(
 
 export const items = [
 	defineSkill({
-		slug: 'js',
-		color: 'yellow',
+		slug: 'csharp',
+		color: 'blue',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.JavaScript,
-		name: 'Javascript',
+			'C# é uma linguagem de programação orientada a objetos, fortemente tipada, desenvolvida pela Microsoft como parte da plataforma .NET.' +
+			'A sua sintaxe orientada a objetos foi baseada no C++ mas inclui muitas influências de outras linguagens de programação, como Object Pascal e, principalmente, Java.' +
+			'A linguagem C# é usada para desenvolver aplicativos de software que são destinados a serem executados no .NET Framework.' +
+			'A linguagem C# é destinada a ser simples e fácil de usar.',
+		logo: Assets.Csharp,
+		name: 'C#',
 		category: 'pro-lang'
 	}),
 	defineSkill({
 		slug: 'ts',
 		color: 'blue',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			'TypeScript é um superconjunto de JavaScript desenvolvido pela Microsoft que adiciona tipagem estática e outros recursos a linguagem.',
 		logo: Assets.TypeScript,
 		name: 'Typescript',
 		category: 'pro-lang'
 	}),
 	defineSkill({
-		slug: 'css',
+		slug: 'js',
+		color: 'yellow',
+		description:
+			'JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.' +
+			'Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.',
+		logo: Assets.JavaScript,
+		name: 'Javascript',
+		category: 'pro-lang'
+	}),
+
+	defineSkill({
+		slug: 'nodejs',
+		color: 'green',
+		description:
+			'Node.js é um ambiente de execução JavaScript assíncrono orientado a eventos, projetado para criar aplicativos de rede escaláveis.',
+		logo: Assets.NodeJs,
+		name: 'Node.js',
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'angular',
+		color: 'red',
+		description:
+			'Angular é uma plataforma de desenvolvimento para a construção de aplicativos web móveis e desktop.',
+		logo: Assets.Angular,
+		name: 'Angular',
+		category: 'framework'
+	}),
+	//express
+	defineSkill({
+		slug: 'express',
 		color: 'blue',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.CSS,
-		name: 'CSS',
-		category: 'markup-style'
+			'O Express.js é um framework para aplicativos da web do Node.js. Ele fornece um conjunto de recursos robusto para aplicativos da web e móveis.',
+		logo: Assets.ExpressJs,
+		name: 'Express.js',
+		category: 'framework'
 	}),
 	defineSkill({
-		slug: 'html',
-		color: 'orange',
+		slug: 'adonis',
+		color: 'blue',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.HTML,
-		name: 'HTML',
-		category: 'markup-style'
+			'AdonisJs é um framework Node.js que visa facilitar o desenvolvimento de aplicativos da web e APIs com JavaScript ou TypeScript.',
+		logo: Assets.AdonisJs,
+		name: 'AdonisJs',
+		category: 'framework'
 	}),
-	defineSkill({
-		slug: 'sass',
-		color: 'pink',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.Sass,
-		name: 'Sass',
-		category: 'markup-style'
-	}),
+
 	defineSkill({
 		slug: 'reactjs',
 		color: 'cyan',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			'O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
 		logo: Assets.ReactJs,
 		name: 'React Js',
 		category: 'library'
@@ -96,7 +121,81 @@ export const items = [
 		logo: Assets.Svelte,
 		name: 'Svelte',
 		category: 'library'
-	})
+	}),
+
+	defineSkill({
+		slug: 'aws',
+		color: 'orange',
+		description: 'Amazon Web Services é uma plataforma de serviços de computação em nuvem que oferece poder computacional, armazenamento de banco de dados, entrega de conteúdo e outras funcionalidades para ajudar as empresas a expandir e crescer.',
+		logo: Assets.AWS,
+		name: 'AWS',
+		category: 'devops'
+	}),
+	defineSkill({
+		slug: 'docker',
+		color: 'blue',
+		description:
+			'O Docker é uma plataforma de software que permite a criação, o teste e a implantação de aplicativos rapidamente.',
+		logo: Assets.Docker,
+		name: 'Docker',
+		category: 'devops'
+	}),
+	defineSkill({
+		slug: 'kubernetes',
+		color: 'blue',
+		description:
+			'O Kubernetes é um sistema de código aberto para automatizar a implantação, o dimensionamento e a gestão de aplicativos em contêineres.',
+		logo: Assets.Kubernetes,
+		name: 'Kubernetes',
+		category: 'devops'
+	}),
+	defineSkill({
+		slug: 'rabbitmq',
+		color: 'red',
+		description:
+			'O RabbitMQ é um software de mensagens de código aberto que implementa o protocolo Advanced Message Queuing Protocol (AMQP).',
+		logo: Assets.RabbitMQ,
+		name: 'RabbitMQ',
+		category: 'devops'
+	}),
+
+	defineSkill({
+		slug: 'mongodb',
+		color: 'green',
+		description:
+			'O MongoDB é um banco de dados de código aberto, gratuito, de alta performance, sem esquemas e orientado a documentos.',
+		logo: Assets.MongoDB,
+		name: 'MongoDB',
+		category: 'db'
+	}),
+	defineSkill({
+		slug: 'postgres',
+		color: 'blue',
+		description:
+			'O PostgreSQL é um sistema de gerenciamento de banco de dados objeto-relacional (ORDBMS) de código aberto.',
+		logo: Assets.PostgreSQL,
+		name: 'PostgreSQL',
+		category: 'db'
+	}),
+	defineSkill({
+		slug: 'redis',
+		color: 'red',
+		description:
+			'O Redis é um banco de dados de estrutura de dados em memória de código aberto, usado como banco de dados, cache e corretor de mensagens.',
+		logo: Assets.Redis,
+		name: 'Redis',
+		category: 'db'
+	}),
+	//todo: mysql
+	// defineSkill({
+	// 	slug: 'mysql',
+	// 	color: 'blue',
+	// 	description:
+	// 		'O MySQL é um sistema de gerenciamento de banco de dados de código aberto que ajuda os usuários a armazenar, organizar e recuperar dados.',
+	// 	logo: Assets.MySQL,
+	// 	name: 'MySQL',
+	// 	category: 'db'
+	// }),
 ] as const;
 
 export const title = 'Skills';
