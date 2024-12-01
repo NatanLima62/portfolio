@@ -8,6 +8,8 @@ const a = (light: string, dark?: string): Asset =>
 	dark ? { dark: gh(dark), light: gh(light) } : gh(light);
 
 const Assets = {
+	Kidsa: a('kidsa_logo.jpg'),
+	Projetil: a('projetil_logo.jpg'),
 	AWS: a('aws.svg'),
 	Bootstrap: a('bootstrap.svg'),
 	C: a('c.svg'),
@@ -70,7 +72,28 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	IFCE: a('ifce-logo.jpg'),
+	NeoCode: a('neo_code_solutions_logo.jpg'),
+
+	VitalEase: a('vital-logo.svg'),
+	VitalEaseImageHome: a('screenshots/vital/home.png'),
+	VitalEaseImageMedicamentosCadastrados: a('screenshots/vital/medicamentos-cadastrados.png'),
+	VitalEaseImageFolhaDeParada: a('screenshots/vital/folha-de-parada.png'),
+	VitalEaseImageCalculo1: a('screenshots/vital/calculo-medicamento-1.png'),
+	VitalEaseImageCalculo2: a('screenshots/vital/calculo-medicamento-2.png'),
+
+	PrudentInvestor: a('prudent-investor-logo.svg'),
+	PrudentInvestorImageHome: a('screenshots/prudent/home.png'),
+	PrudentInvestorImageHomeAcoes: a('screenshots/prudent/home-acoes.png'),
+	PrudentInvestorImageHomeIbovespa: a('screenshots/prudent/home-ibovespa.png'),
+	PrudentInvestorImageHomeNoticias: a('screenshots/prudent/home-noticias.png'),
+	PrudentInvestorImageAcoes: a('screenshots/prudent/acoes.png'),
+	PrudentInvestorImageCalendarioDividendos: a('screenshots/prudent/calendario-dividendos.png'),
+	PrudentInvestorImageFiis: a('screenshots/prudent/fiis.png'),
+	PrudentInvestorImageFundos: a('screenshots/prudent/fundos.png'),
+	PrudentInvestorCrypto: a('screenshots/prudent/crypto.png'),
+	PrudentInvestorCryptoDetalhe: a('screenshots/prudent/crypto-detalhe.png'),
 };
 
 export default Assets;

@@ -114,14 +114,6 @@ export const items = [
 		name: 'React Js',
 		category: 'library'
 	}),
-	defineSkill({
-		slug: 'svelte',
-		color: 'orange',
-		description: svelte,
-		logo: Assets.Svelte,
-		name: 'Svelte',
-		category: 'library'
-	}),
 
 	defineSkill({
 		slug: 'aws',
