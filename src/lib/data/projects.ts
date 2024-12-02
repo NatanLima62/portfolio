@@ -37,11 +37,11 @@ export const items: Array<Project> = [
 			},
 			{
 				label: 'Cryptos',
-				src: getAssetURL(Assets.PrudentInvestorCrypto)
+				src: getAssetURL(Assets.PrudentInvestorImageCrypto)
 			},
 			{
 				label: 'Bitcoin infos',
-				src: getAssetURL(Assets.PrudentInvestorCryptoDetalhe)
+				src: getAssetURL(Assets.PrudentInvestorImageCryptoDetalhe)
 			},
 			{
 				label: 'Ações',
@@ -97,6 +97,32 @@ export const items: Array<Project> = [
 				label: 'Calculo de medicamento 2',
 				src: getAssetURL(Assets.VitalEaseImageCalculo2)
 			}
+		]
+	},
+	{
+		slug: 'sysra',
+		color: '#5e95e3',
+		description:
+			'SysRa é um ERP (Enterprise Resource Planning) para restaurantes acadêmicos. O sistema permite o cadastro de unidatades, cardápios, refeições, usuários, entre outros. Além disso, o sistema permite a geração de relatórios e a exportação de dados. Assim facilitando a gestão do restaurante acadêmico.',
+		shortDescription:
+			'SysRa sistema de restaurante academico',
+		links: [{ to: 'https://sysra-h.maracanau.ifce.edu.br/login', label: 'SysRa' }],
+		logo: Assets.IFCE,
+		name: 'SysRa',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('csharp', 'angular', 'ts', 'angular', 'sass', 'postgres'),
+		type: 'Web application',
+		screenshots: [
+			{
+				label: 'Login',
+				src: getAssetURL(Assets.SysraImageLogin)
+			},
+			{
+				label: 'Home',
+				src: getAssetURL(Assets.SysraImageHome)
+			},
 		]
 	},
 ];

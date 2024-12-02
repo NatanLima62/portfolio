@@ -8,10 +8,7 @@ export const name = 'Natanael';
 export const lastName = 'de Lima Oliveira';
 
 export const description =
-	'Desenvolvedor Full-Stack com ampla experiência, focado em aperfeiçoar o desenvolvimento de sistemas e aplicativos através ' +
-	'da utilização das tecnologias mais recentes do mercado como .Net, Node, Angular e React  além da aplicação de padrões de projeto e clean code. Além disso, ' +
-	'minha trajetória como desenvolvedor Full-Stack foi fundamental para aprimorar minhas habilidades de entrega, gerenciamento de prazos e a utilização ' +
-	'de diferentes tecnologias dependendo da necessidade do cliente.';
+	'😁 Olá! Sou um Engenheiro de Software orientado a resultados, com mais de 3 anos de experiência em desenvolvimento backend. Meu foco é entregar soluções de software de alta qualidade, maximizando valor e eficiência com o menor esforço possível.';
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/NatanLima62/' },

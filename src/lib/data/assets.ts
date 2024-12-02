@@ -92,8 +92,11 @@ const Assets = {
 	PrudentInvestorImageCalendarioDividendos: a('screenshots/prudent/calendario-dividendos.png'),
 	PrudentInvestorImageFiis: a('screenshots/prudent/fiis.png'),
 	PrudentInvestorImageFundos: a('screenshots/prudent/fundos.png'),
-	PrudentInvestorCrypto: a('screenshots/prudent/crypto.png'),
-	PrudentInvestorCryptoDetalhe: a('screenshots/prudent/crypto-detalhe.png'),
+	PrudentInvestorImageCrypto: a('screenshots/prudent/crypto.png'),
+	PrudentInvestorImageCryptoDetalhe: a('screenshots/prudent/crypto-detalhe.png'),
+
+	SysraImageLogin: a('screenshots/sysra/login.png'),
+	SysraImageHome: a('screenshots/sysra/home.png'),
 };
 
 export default Assets;
